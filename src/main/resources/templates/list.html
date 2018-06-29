@@ -19,8 +19,19 @@
 </head>
 
 <body>
+
+
+
 <div th:replace="base :: navlinks"></div>
 <div class="container bg">
+
+
+    <a href="/add">
+        <img src="/img/add.PNG" alt="image"/>
+    </a>
+
+    <hr>
+    <p></p><h3>Current MEME Listings</h3> (Please add a MEME if no meme found)</p>
 <table>
     <div class="row">
     <tr>
@@ -47,6 +58,7 @@
     </div>
 
 </table>
+
 <div th:replace="base :: footer"></div>
 </div>
 
