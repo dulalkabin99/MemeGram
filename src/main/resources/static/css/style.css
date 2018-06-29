@@ -1,0 +1,25 @@
+.bg{
+    margin-top: 65px;
+
+   background-color:#f0f0f5;
+
+
+
+ }
+ .textareaWidth{
+ min-width =100%
+ }
+ .memimg{
+ height:50px;
+ width:50px;
+ border-radius: 50%;
+
+ }
+
+ .desc{
+ background-color: lightblue;
+ }
+
+.container input{
+    position:relative
+    width:auto}
